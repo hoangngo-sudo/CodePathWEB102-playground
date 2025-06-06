@@ -1,5 +1,4 @@
 // import { useState } from 'react'
-import './App.css'
 import './main.jsx'
 import './Calendar.jsx'
 import Calendar from './Calendar.jsx'
