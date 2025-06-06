@@ -15,7 +15,9 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 22
+        node-version: '22'
+        cache: 'npm'
+        cache-dependency-path: ./timetabled/package-lock.json
 
     - name: Install Dependencies
       working-directory: ./timetabled
