@@ -1,4 +1,3 @@
-import React from 'react';
 import './Calendar.jsx';
 
 const Event = (props) => {
